@@ -18,9 +18,9 @@ function timer(){
     if ((hr >= 0)&&(hr <= 5)|| (hr >=18)){
         document.body.style.backgroundImage = "linear-gradient(180deg,#0353a4, #023e7d, #002855)"
     }else if ((hr >= 6)&&(hr <= 11)){
-        document.body.style.backgroundImage = "linear-gradient(45deg,#ff9f1c, #f6aa1c, #ffbf69 )"
+        document.body.style.backgroundImage = "linear-gradient(45deg, #ff9f1c, #f6aa1c, #ffbf69 )"
     }else if ((hr >= 12)&&(hr < 18)){
-        document.body.style.backgroundImage = "linear-gradient(45deg, #db9e12, #ff9505, #cc5803)"
+        document.body.style.backgroundImage = "linear-gradient(45deg, #ff9505, #ca6702 , #cc5803)"
     }
 
     //imprime em decimal
@@ -34,9 +34,9 @@ function timer(){
     document.getElementById("segundos").innerHTML = segundo
 
     //imprime em hexadecimal
-    document.getElementById("h").innerHTML = h
-    document.getElementById("m").innerHTML = m
-    document.getElementById("s").innerHTML = s
+    // document.getElementById("h").innerHTML = h
+    // document.getElementById("m").innerHTML = m
+    // document.getElementById("s").innerHTML = s
 
     setInterval("timer()", 1)
 }
