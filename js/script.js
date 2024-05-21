@@ -11,9 +11,9 @@ function timer(){
     let segundo = date.getSeconds().toString(2).padStart(8, "00000000")
 
     //transforma em hexadecimal
-    let h = date.getHours().toString(16).padStart(6, "000000")
-    let m = date.getMinutes().toString(16).padStart(6, "000000")
-    let s = date.getSeconds().toString(16).padStart(6, "000000")
+    let h = date.getHours().toString(16)
+    let m = date.getMinutes().toString(16)
+    let s = date.getSeconds().toString(16)
 
     if ((hr >= 0)&&(hr <= 5)|| (hr >=18)){
         document.body.style.backgroundImage = "linear-gradient(180deg,#0353a4, #023e7d, #002855)"

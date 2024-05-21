@@ -40,8 +40,6 @@ body{
     font-size: 1.25rem;
     width: 7rem;
     height: 7rem;
-    
-    min-width: max-content;
     gap: .1rem;
     
 }
