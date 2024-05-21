@@ -1,9 +1,3 @@
-:root{
-    --background-night: linear-gradient(180deg,#0353a4, #023e7d, #002855);
-    --background-evening:linear-gradient(45deg, #db9e12, #ff9505, #cc5803);
-    --background-morning: linear-gradient(45deg,#ff9f1c, #f6aa1c, #ffbf69 );
-}
-
 *{
     padding: 0;
     margin: 0;
