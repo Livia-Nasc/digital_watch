@@ -1,0 +1,68 @@
+:root{
+    --background-night: linear-gradient(180deg,#0353a4, #023e7d, #002855);
+    --background-evening:linear-gradient(45deg, #db9e12, #ff9505, #cc5803);
+    --background-morning: linear-gradient(45deg,#ff9f1c, #f6aa1c, #ffbf69 );
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 3.2rem;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20rem;
+    min-height: 100vh;
+}
+#container{
+    box-shadow: 0.05rem -.05rem .2rem .2rem rgb(0, 0, 0, 0.3);
+    backdrop-filter: blur(.75rem);
+    border-radius: .75rem;
+    height: 10rem;
+    width: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-color: rgb(0, 0, 0,0.4);
+    color: white;
+    border-radius: 1.25rem;
+
+    font-size: 1.25rem;
+    width: 7rem;
+    height: 7rem;
+    
+    min-width: max-content;
+    gap: .1rem;
+    
+}
+
+.time{
+    font-size: .75rem;
+    line-height: 1.1;
+}
+
+.binary{
+    color: rgb(255,255,255,0.5);
+    font-size: .35rem;
+}
+
+.hex{
+    color: rgb(255,255,255,0.5);
+    font-size: .35rem;
+}

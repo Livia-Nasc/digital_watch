@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital watch</title>
+    <link rel="shortcut icon" href="/img/clock.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body onload="timer()">
+    <div id="container">
+        <h1></h1>
+        <div class="clock">
+            <!-- decimal -->
+            <span id="hours">00</span>
+            <!-- binário -->
+            <span class="binary" id="hora"></span>
+            <span class="hex" id="h"></span>
+            <span class="time">Hours</span>
+        </div>
+        <div class="clock">
+            <!-- decimal -->
+            <span id="minutes">00</span>
+            <!-- binário -->
+            <span class="binary" id="minutos"></span>
+            <!-- hexadecimal -->
+            <span class="hex" id="m"></span>
+            <span class="time">minutes</span>
+        </div>
+        <div class="clock">
+            <!-- decimal -->
+            <span id="seconds">00</span>
+            <!-- binário -->
+            <span class="binary" id="segundos"></span>
+            <!-- hexadecimal -->
+            <span class="hex" id="s"></span>
+            <span class="time">seconds</span>
+            
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
