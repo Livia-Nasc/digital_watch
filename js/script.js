@@ -38,5 +38,7 @@ function timer(){
     // document.getElementById("m").innerHTML = m
     // document.getElementById("s").innerHTML = s
 
+
+
     setInterval("timer()", 1)
 }
