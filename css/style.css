@@ -6,7 +6,7 @@
 
 body{
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,11 +17,11 @@ body{
     backdrop-filter: blur(.75rem);
     border-radius: .75rem;
     height: 10rem;
-    width: 27rem;
+    width: 23rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1.5rem; 
+    gap: .5rem; 
 }
 
 .clock{
@@ -57,14 +57,14 @@ body{
     font-size: .35rem;
 }
 
-@media (max-width: 70rem){
+@media (max-width: 86rem){
     *{
         font-size: 3.2rem;
     }
 
     body{
         min-height: 100vh;
-        width: 100%;
+        width: 100vw;
         align-items: center;
         display: flex;
         justify-content: flex-start;
@@ -73,8 +73,8 @@ body{
     }
 
     #container{
-        height: 10rem;
-        width: 30rem;
+        height: 23rem;
+        width: 10rem;
         align-items: center;
         display: flex;
         flex-direction: column;
